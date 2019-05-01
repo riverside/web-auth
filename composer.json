@@ -1,0 +1,25 @@
+{
+  "name": "riverside/web-auth",
+  "description": "PHP authentication library",
+  "type": "library",
+  "keywords": ["oauth", "authorization", "authentication", "facebook", "google", "twitter", "api"],
+  "homepage": "https://github.com/riverside/web-auth",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dimitar Ivanov",
+      "email": "info@zinoui.com",
+      "homepage": "https://zinoui.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "WebAuth\\": "src/"
+    }
+  }
+}
